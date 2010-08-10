@@ -1,6 +1,14 @@
 Django CMS 2.0
 ==============
 
+
+Grapelli support
+----------------
+![Change list](http://s3.amazonaws.com/floomby/8_10_2010/yrpetuX2b06o3LCeoh9ZGQ_Thumbnail.jpg "Change list")
+![Change form](http://s3.amazonaws.com/floomby/8_10_2010/FlY1Y2nsqUa1vEZ04R0O2A_Thumbnail.jpg "Change form")
+
+
+
 A Django app for managing hierarchical pages of content in multiple languages, on different sites.
 
 Django CMS handles the navigation rendering for you in multiple languages with internationalization (i18n) slugs,
