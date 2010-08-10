@@ -4,7 +4,7 @@ from django import forms
 
 
 class TextForm(ModelForm):
-    body = forms.CharField()
+    body = forms.CharField(widget=forms.Textarea)
     
     class Meta:
         model = Text
