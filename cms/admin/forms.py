@@ -141,6 +141,9 @@ class PageForm(PageAddForm):
                 raise forms.ValidationError(_('Invalid URL, use /my/url format.'))
         return url
     
+    class Media:
+        js = ['/media/admin/tinymce/jscripts/tiny_mce/tiny_mce.js', '/media/js/tinymce_setup.js',]
+
 
 class PagePermissionInlineAdminForm(forms.ModelForm):
     """Page permission inline admin form used in inline admin. Required, because
