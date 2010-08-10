@@ -4,8 +4,9 @@ Django CMS 2.0
 
 Grapelli support
 ----------------
-![Change list](http://s3.amazonaws.com/floomby/8_10_2010/yrpetuX2b06o3LCeoh9ZGQ_Thumbnail.jpg "Change list")
-![Change form](http://s3.amazonaws.com/floomby/8_10_2010/FlY1Y2nsqUa1vEZ04R0O2A_Thumbnail.jpg "Change form")
+![Change list](http://s3.amazonaws.com/floomby/8_10_2010/jah15bzBMUGjXf5yu36B4w.jpg "Change list")
+
+![Change form](http://s3.amazonaws.com/floomby/8_10_2010/yxi517irkuV2n76CCytVw.jpg "Change form")
 
 
 
