@@ -6,11 +6,11 @@ select[name="plugins"] {
 }
 
 .plugin-holder-config{
-    border-top: 0px;
+        border-top: 0px;
 }
 
 .form-row label.plugin-holder-config-label{
-    width: 300px;
+        width: 300px;
 }
 
 .plugin-holder .form-row{
@@ -18,6 +18,9 @@ select[name="plugins"] {
 }
 .plugin-holder label{
 	display:none;
+}
+.plugin-holder .span-4 + .span-flexible {
+        margin: 0px;
 }
 
 .plugin-editor, .plugin-list-holder{
@@ -39,7 +42,7 @@ select[name="plugins"] {
 }
 
 .plugin-list-holder{
-	width:300px;
+	width:280px;
 }
 .plugin-list-holder select{
 	clear:both;
@@ -81,7 +84,7 @@ ul.plugin-list .drag{
 }
 ul.plugin-list .text{
 	float:left;
-	width:255px;
+	width:235px;
 	height:25px;
 	overflow: hidden;
 }
