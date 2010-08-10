@@ -271,6 +271,26 @@ div#sitemap li, div#sitemap ul{list-style-type: none;}
 
 #sitemap li a.copy span{display:none;}
 
+#sitemap li a.addlink {
+	width:10px;
+	height:10px;
+	margin-left:4px;
+	display:inline-block;
+	background:url(../images/icon_addlink.gif) 0px 0px no-repeat;
+}
+
+#sitemap li a.addlink span{display:none;}
+
+#sitemap li a.deletelink {
+	width:10px;
+	height:10px;
+	margin-left:4px;
+	display:inline-block;
+	background:url(../images/icon_deletelink.gif) 0px 0px no-repeat;
+}
+
+#sitemap li a.deletelink span{display:none;}
+
 #sitemap li a.selector-add {
 	margin-left:4px;
 	background-position: -20px 0px;
@@ -303,7 +323,7 @@ div#sitemap ul.header, div#sitemap ul.header li{
 	padding:0px;
 }
 div#sitemap ul.header li{
-	background:#E1E1E1 url(../images/nav-bg.gif) repeat-x scroll left top;
+	//background:#E1E1E1 url(../images/nav-bg.gif) repeat-x scroll left top;
 	border-bottom:1px solid #DDDDDD;
 	color:#666666;
 	font-size:11px;
