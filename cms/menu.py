@@ -39,6 +39,7 @@ def page_to_node(page, home, cut):
         for menu in app.menus:
             extenders.append(menu.__name__)
     attr['redirect_url'] = page.get_redirect()  # save redirect URL is any
+    attr['publication_date'] = page.publication_date
     if extenders:
         attr['navigation_extenders'] = extenders
     n = NavigationNode(
