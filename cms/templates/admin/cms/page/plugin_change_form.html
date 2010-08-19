@@ -7,8 +7,6 @@
     <script type="text/javascript" src="{{ jsi18nurl|default:"../../../jsi18n/" }}"></script>
     <script type="text/javascript" src="{% admin_media_prefix %}js/core.js"></script>
     <script type="text/javascript" src="{% admin_media_prefix %}js/admin/RelatedObjectLookups.js"></script>
-    <script type="text/javascript" src="{% admin_media_prefix %}js/jquery.min.js"></script>
-    <script type="text/javascript" src="{% admin_media_prefix %}js/jquery.init.js"></script>
     <script type="text/javascript" src="{% admin_media_prefix %}js/actions.min.js"></script>
     <script type="text/javascript" src="{% admin_media_prefix %}js/urlify.js"></script>
     <script type="text/javascript" src="{% admin_media_prefix %}js/prepopulate.min.js"></script>
@@ -19,6 +17,7 @@
 <script type="text/javascript">
 //<![CDATA[
 (function($) {
+    $ = django.jQuery;
 	function runOnLoad(f) {
 		if (runOnLoad.loaded){
 			f();
